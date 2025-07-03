@@ -1,8 +1,8 @@
 import axios, { AxiosResponse } from 'axios';
 
 // API Configuration
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/xss';
-const AUTH_BASE_URL = 'http://localhost:8000/api/fortress_auth';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://52.90.166.240/api/xss';
+const AUTH_BASE_URL = 'http://52.90.166.240/api/fortress_auth';
 
 // Types for API responses
 export interface XSSScanLog {
